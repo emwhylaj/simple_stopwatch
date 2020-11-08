@@ -1,0 +1,67 @@
+* {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+.container {
+    width: 50%;
+    height: 100%;
+    margin: 0px auto;
+    background-image: url(/images/stopwatch.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    margin-top: 50px;
+    border-radius: 20%;
+}
+.title {
+    font-size: 50px;
+    text-align: center;
+    color: darkgrey;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+}
+#displayContent {
+    text-align: center;
+    font-size: 80px;
+    padding: 50px;
+}
+.buttons {
+    text-align: center;
+    margin-bottom: 20px;
+}
+button {
+    font-size: 15px;
+    background-color: azure;
+    outline-style: none;
+    border-style: groove;
+}
+.far {
+    font-size: 50px;
+    margin: 20px;
+}
+.fas {
+    font-size: 50px;
+    margin: 20px;
+}
+#displayContent {
+    color: chocolate;
+}
+
+.footer__para {
+    color: black;
+    text-align: center;
+}
+@media only screen and (max-width: 600px) {
+    #displayContent {
+        font-size: 40px;
+        text-align: center;
+        padding: 30px;
+    }
+
+    .far {
+        font-size: 25px;
+        margin: 10px;
+    }
+    .fas {
+        font-size: 25px;
+        margin: 10px;
+    }
+}
